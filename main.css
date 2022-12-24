@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color:rgb(68, 153, 254);
+}
+.menu{
+    text-align: center;
+    text-decoration-color: aliceblue;
+    padding: 50px;
+    color: aliceblue;
+
+
+}
+.box{
+    width: 1000px;
+    margin: 30px;
+    padding: 20px;
+    box-shadow:
+             inset 0 -3em 3em rgba(0,0,0,0.1),
+                   0 0  0 2px rgb(255,255,255),
+                   0.3em 0.3em 1em rgba(0,0,0,0.3);
+    background-color: aliceblue;   
+    flex-wrap: wrap;            
+}
+.nomi{
+    
+}
+.form{
+    width: 1000px;
+    height:200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    gap: 10px;
+}
+.taom-nomi {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    list-style: none;
+    
+}
+
+.taom-narxi{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+ 
+}
+
+.taom-rasmini-linki {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+.taom-oshpazi{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+.taom-tayyorlagan-restorani{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.btn{
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(29, 231, 85);
+}
